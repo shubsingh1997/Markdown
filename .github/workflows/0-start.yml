@@ -64,7 +64,7 @@ jobs:
           git commit --message="Create index.md file"
 
           echo "Push"
-          git push --set-upstream origin $BRANCH
+          git push --set-upstream origin +$BRANCH
 
           echo "Make a pull request"
           # Reference https://cli.github.com/manual/gh_pr_create
